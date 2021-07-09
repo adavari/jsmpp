@@ -65,7 +65,7 @@ public class DefaultComposer implements PDUComposer {
             byte addrTon, byte addrNpi, String addressRange)
             throws PDUStringException {
         StringValidator.validateString(systemId, StringParameter.SYSTEM_ID);
-        StringValidator.validateString(password, StringParameter.PASSWORD);
+//        StringValidator.validateString(password, StringParameter.PASSWORD);
         StringValidator.validateString(systemType, StringParameter.SYSTEM_TYPE);
         StringValidator.validateString(addressRange,
                 StringParameter.ADDRESS_RANGE);
